@@ -6,10 +6,7 @@
 
 Порядок запуска
 
-1) Сперва поднимаем Rabbit и Postgres
-
-`docker-compose up -d`
-
+1) `docker-compose up -d` Поднимаем Rabbit и Postgres
 2) `python runner.py`   Запуск scrapy
 3) `python .\apk_downloader\main.py` Запуск консьюмера
 
